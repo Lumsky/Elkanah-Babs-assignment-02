@@ -25,7 +25,7 @@ let arrayOfNumbers = [2, 4, 5, 7, 6, 9, 10]
 
   // return arrayOfNumbers.length;
 
- // assignment.sumOfNumbers = sumOfNumbers;
+ assignment.sumOfNumbers = sumOfNumbers;
 /**
  * Challenge - 2
  * 
