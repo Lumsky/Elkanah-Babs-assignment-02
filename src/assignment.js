@@ -37,7 +37,7 @@ function sumOfNumbers(arrayOfNumbers) {
 function countEvenNumbers(arrayOfNumbers) {
   for (var i = 0; i < arrayOfNumbers.length; i++) {
             if (arrayOfNumbers[i] % 2 === 0) {
-                document.writeln(arr[i] + "<br />");
+                document.writeln(arrayOfNumbers[i] + "<br />");
             }
         }
     }
