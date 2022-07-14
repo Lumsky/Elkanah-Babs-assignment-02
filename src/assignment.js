@@ -35,9 +35,17 @@ function sumOfNumbers(arrayOfNumbers) {
  * @returns number the count of even numbers
  */
 function countEvenNumbers(arrayOfNumbers) {
+  for (var i = 0; i < arrayOfNumbers.length; i++) {
+            if (arrayOfNumbers[i] % 2 === 0) {
+                document.writeln(arr[i] + "<br />");
+            }
+        }
+    }
     return arrayOfNumbers.length;
 }
-// assignment.countEvenNumbers = countEvenNumbers;
+
+
+ assignment.countEvenNumbers = countEvenNumbers;
 /**
  * Challenge - 3
  * 
@@ -63,7 +71,7 @@ console.log(tempInFahrenheit)
      // return arrayOfNumbers;
 }
 
-assignment.celsiusToFahrenheit = celsiusToFahrenheit;
+//assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
 // ========================
 // DO NOT EDIT THIS BLOCK
