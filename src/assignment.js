@@ -14,6 +14,13 @@ const assignment = {};
  * @returns number the sum of the numbers
  */
 function sumOfNumbers(arrayOfNumbers) {
+  let sumOfNumbers = 0;
+  for (let i = 0; i < arrayOfNumbers.length; i ++)
+    sumOfNumbers += arrayOfNumbers[i];
+    return sumOfNumbers;
+}
+let arrayOfNumbers = [2, 4, 5, 7, 6, 9, 10]
+  console.log(sumOfNumbers(arrayOfNumbers))
     return arrayOfNumbers.length;
 }
 // assignment.sumOfNumbers = sumOfNumbers;
@@ -56,4 +63,26 @@ function celsiusToFahrenheit(arrayOfNumbers) {
 // DO NOT EDIT THIS BLOCK
 module.exports = assignment;
 // ========================
+
+
+
+// function sumOfNumbers(arrayOfNumbers) {
+//   let sumOfNumbers = 0;
+//   for (let i = 0; i < arrayOfNumbers.length; i ++)
+//     sumOfNumbers += arrayOfNumbers[i];
+//     return sumOfNumbers;
+// }
+// let arrayOfNumbers = [2, 4, 5, 7, 6, 9, 10]
+//   console.log(sumOfNumbers(arrayOfNumbers))
+
+
+// function celsiusToFahrenheit(arrayOfNumbers) {
+//   var fahrenheit = (arrayOfNumbers * 9/5) + 32;
+//     return Math.trunc(fahrenheit);
+// }
+
+// var tempInFahrenheit = arrayOfNumbers.map(celsiusToFahrenheit)
+
+// console.log((tempInFahrenheit))
+
 
