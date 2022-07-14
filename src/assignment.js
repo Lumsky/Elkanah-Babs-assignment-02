@@ -61,8 +61,6 @@ var tempInFahrenheit = arrayOfNumbers.map(celsiusToFahrenheit)
 console.log((tempInFahrenheit))
     return arrayOfNumbers;
 }
-// assignment.celsiusToFahrenheit = celsiusToFahrenheit;
-
 
 // ========================
 // DO NOT EDIT THIS BLOCK
