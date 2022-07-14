@@ -33,34 +33,6 @@ let arrayOfNumbers = [2, 4, 5, 7, 6, 9, 10]
  * @returns number the count of even numbers
  */
 
-Number.prototype.isEven=function(){
-  return this.valueOf()%2 == 0;
-}
-var countEvenNumbers=function(arrayOfNumbers) {
-   var countEvenNumbers = 0;
-   for (let i = 0; i < arrayOfNumbers.length; i ++) {
-     var number = arrayOfNumbers[i];
-     if(number.isEven()) {
-       countEvenNumbers++
-     }
-   }
-    return countEvenNumbers;
-}
-
-console.log(countEvenNumbers(arrayOfNumbers))
-
-//the set of code below runs on my computer's VS code but does not run on this console.
-// function countEvenNumbers(arrayOfNumbers) {
-//    var countEvenNumbers = 0;
-//    for (let i = 0; i < arrayOfNumbers.length; i ++)
-//      if (arrayOfNumbers[i]) % 2 === 0) {
-//        countEvenNumbers++;
-//      }
-//      return countEvenNumbers;
-// }
-// let arrayOfNumbers = [2, 4, 5, 7, 6, 9, 10]
-// console.log(countEvenNumbers(arrayOfNumbers))
-
 /**
  * Challenge - 3
  * 
