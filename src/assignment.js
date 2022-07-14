@@ -28,7 +28,6 @@ let arrayOfNumbers = [2, 4, 5, 7, 6, 9, 10]
  assignment.sumOfNumbers = sumOfNumbers;
 /**
  * Challenge - 2
- * 
  * Count all even numbers within an array of numbers.
  * If you did Challenge - 2, remove the comment in the line just after this function
  * 
@@ -54,17 +53,17 @@ function countEvenNumbers(arrayOfNumbers) {
  * @param {Array} arrayOfNumbers the array containing temperatures in Celsius to be converted
  * @returns Array the converted temperatures in Fahrenheit
  */
-// function celsiusToFahrenheit(arrayOfNumbers) {
-//   var fahrenheit = (arrayOfNumbers * 9/5) + 32;
-//     return Math.trunc(fahrenheit);
+function celsiusToFahrenheit(arrayOfNumbers) {
+  var fahrenheit = (arrayOfNumbers * 9/5) + 32;
+    return Math.trunc(fahrenheit);
 
-// var tempInFahrenheit = arrayOfNumbers.map(celsiusToFahrenheit)
+var tempInFahrenheit = arrayOfNumbers.map(celsiusToFahrenheit)
 
-// console.log((tempInFahrenheit))
-//     return arrayOfNumbers;
-// }
+console.log(tempInFahrenheit)
+    // return arrayOfNumbers;
+}
 
-// assignment.countEvenNumbers = countEvenNumbers;
+assignment.countEvenNumbers = countEvenNumbers;
 
 // ========================
 // DO NOT EDIT THIS BLOCK
