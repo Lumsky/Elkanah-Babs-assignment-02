@@ -56,22 +56,19 @@ function countEvenNumbers(arrayOfNumbers) {
  * temperatures in Fahrenheit. Decimal figures in the converted values in Fahrenheit should be removed.
  * E.g 51.21 should just be 51 (hint: Math.trunc(...) function)
  * If you did Challenge - 3, remove the comment in the line just after this function
- * 
  * See https://www.thoughtco.com/celcius-to-farenheit-formula-609227 for the conversion formula
- * 
  * @param {Array} arrayOfNumbers the array containing temperatures in Celsius to be converted
  * @returns Array the converted temperatures in Fahrenheit
- */
+ **/
 
 function celsiusToFahrenheit(arrayOfNumbers) {
   var fahrenheit = (arrayOfNumbers * 9/5) + 32;
     return Math.trunc(fahrenheit);
-
-var arrayOfNumbers = [2, 4, 5, 7, 6, 9, 10]
+}
 var tempInFahrenheit = arrayOfNumbers.map(celsiusToFahrenheit);
 
-console.log(tempInFahrenheit)
-     return arrayOfNumbers;
+console.log(celsiusToFahrenheit(tempInFahrenheit))
+    // return arrayOfNumbers;
 }
 
 assignment.celsiusToFahrenheit = celsiusToFahrenheit;
@@ -81,16 +78,6 @@ assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 module.exports = assignment;
 // ========================
 
-
-
-// function sumOfNumbers(arrayOfNumbers) {
-//   let sumOfNumbers = 0;
-//   for (let i = 0; i < arrayOfNumbers.length; i ++)
-//     sumOfNumbers += arrayOfNumbers[i];
-//     return sumOfNumbers;
-// }
-// let arrayOfNumbers = [2, 4, 5, 7, 6, 9, 10]
-//   console.log(sumOfNumbers(arrayOfNumbers))
 
 
 // function celsiusToFahrenheit(arrayOfNumbers) {
