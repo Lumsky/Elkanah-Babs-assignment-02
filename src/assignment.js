@@ -58,7 +58,6 @@ function celsiusToFahrenheit(arrayOfNumbers) {
 
 var tempInFahrenheit = arrayOfNumbers.map(celsiusToFahrenheit)
 
-let arrayOfNumbers = [2, 4, 5, 7, 6, 9, 10]
 console.log(tempInFahrenheit)
     // return arrayOfNumbers;
 }
