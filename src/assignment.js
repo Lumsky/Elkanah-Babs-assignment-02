@@ -95,5 +95,3 @@ module.exports = assignment;
 // var tempInFahrenheit = arrayOfNumbers.map(celsiusToFahrenheit)
 
 // console.log((tempInFahrenheit))
-
-
