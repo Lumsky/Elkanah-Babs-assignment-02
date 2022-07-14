@@ -66,7 +66,7 @@ console.log(countEvenNumbers(arrayOfNumbers))
 
 // console.log(tempInFahrenheit)
      // return arrayOfNumbers;
-}
+//}
 
 //assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
