@@ -41,9 +41,8 @@ function countEvenNumbers(arrayOfNumbers) {
             }
         }
     }
-    return arrayOfNumbers.length;
-}
-
+console.log(countEvenNumbers(arrayOfNumbers))
+  //  return arrayOfNumbers.length;
 
  assignment.countEvenNumbers = countEvenNumbers;
 /**
@@ -60,14 +59,14 @@ function countEvenNumbers(arrayOfNumbers) {
  * @param {Array} arrayOfNumbers the array containing temperatures in Celsius to be converted
  * @returns Array the converted temperatures in Fahrenheit
  */
-function celsiusToFahrenheit(arrayOfNumbers) {
-  var fahrenheit = (arrayOfNumbers * 9/5) + 32;
-    return Math.trunc(fahrenheit);
+// function celsiusToFahrenheit(arrayOfNumbers) {
+//   var fahrenheit = (arrayOfNumbers * 9/5) + 32;
+//     return Math.trunc(fahrenheit);
 
-var arrayOfNumbers = [2, 4, 5, 7, 6, 9, 10]
-var tempInFahrenheit = arrayOfNumbers.map(celsiusToFahrenheit);
+// var arrayOfNumbers = [2, 4, 5, 7, 6, 9, 10]
+// var tempInFahrenheit = arrayOfNumbers.map(celsiusToFahrenheit);
 
-console.log(tempInFahrenheit)
+// console.log(tempInFahrenheit)
      // return arrayOfNumbers;
 }
 
