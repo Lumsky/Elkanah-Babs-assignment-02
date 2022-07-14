@@ -49,6 +49,7 @@ var countEvenNumbers=function(arrayOfNumbers) {
 
 console.log(countEvenNumbers(arrayOfNumbers))
 
+//the set of code below runs on my computer's VS code but does not run on this console.
 // function countEvenNumbers(arrayOfNumbers) {
 //    var countEvenNumbers = 0;
 //    for (let i = 0; i < arrayOfNumbers.length; i ++)
