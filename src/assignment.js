@@ -35,10 +35,10 @@ function sumOfNumbers(arrayOfNumbers) {
  * @returns number the count of even numbers
  */
 function countEvenNumbers(arrayOfNumbers) {
-  var count = 0;
+  var countEvenNumbers = 0;
   for (let i = 0; i < arrayOfNumbers.length; i++) {
     if (arrayOfNumbers[i] % 2 === 0) {
-        count++;
+        countEvenNumbers++;
     }    
   }
   return countEvenNumbers;
