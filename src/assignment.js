@@ -62,14 +62,16 @@ function countEvenNumbers(arrayOfNumbers) {
  **/
 
 function celsiusToFahrenheit(arrayOfNumbers) {
-  var fahrenheit = (arrayOfNumbers * 9/5) + 32;
-    return Math.trunc(fahrenheit);
+  var celsiusToFahrenheit = 0;
+  for (let i = 0; i < arrayOfNumbers.length; i++) {
+    if (arrayOfNumbers * 9/5) + 32;
+    return Math.trunc(celsiusToFahrenheit);
 }
 var tempInFahrenheit = arrayOfNumbers.map(celsiusToFahrenheit);
-
-console.log(celsiusToFahrenheit(tempInFahrenheit))
     // return arrayOfNumbers;
 }
+
+console.log(celsiusToFahrenheit(tempInFahrenheit))
 
 assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
