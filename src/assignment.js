@@ -20,7 +20,7 @@ function sumOfNumbers(arrayOfNumbers) {
     sumOfNumbers += arrayOfNumbers[i];
     return sumOfNumbers;
 }
-let arrayOfNumbers = [2, 4, 5, 7, 6, 9, 10]
+// let arrayOfNumbers = [2, 4, 5, 7, 6, 9, 10]
   console.log(sumOfNumbers(arrayOfNumbers))
 
   // return arrayOfNumbers.length;
