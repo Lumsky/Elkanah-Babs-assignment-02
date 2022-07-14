@@ -20,7 +20,7 @@ function sumOfNumbers(arrayOfNumbers) {
     sumOfNumbers += arrayOfNumbers[i];
     return sumOfNumbers;
 }
-// let arrayOfNumbers = [2, 4, 5, 7, 6, 9, 10]
+ let arrayOfNumbers = [2, 4, 5, 7, 6, 9, 10]
   console.log(sumOfNumbers(arrayOfNumbers))
 
   // return arrayOfNumbers.length;
@@ -35,11 +35,15 @@ function sumOfNumbers(arrayOfNumbers) {
  * @returns number the count of even numbers
  */
 function countEvenNumbers(arrayOfNumbers) {
-  for (let i = 0; i < arrayOfNumbers.length; i++)
-    if (arrayOfNumbers[i] % 2 === 0);
-    return countEvenNumbers;
+  var count = 0;
+  for (let i = 0; i < arrayOfNumbers.length; i++) {
+    if (arrayOfNumbers[i] % 2 === 0) {
+        count++;
+    }    
+  }
+        return countEvenNumbers;
     //return arrayOfNumbers.length;
-    }
+}
   
   console.log(countEvenNumbers(arrayOfNumbers))
 
