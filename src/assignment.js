@@ -56,10 +56,11 @@ function celsiusToFahrenheit(arrayOfNumbers) {
   var fahrenheit = (arrayOfNumbers * 9/5) + 32;
     return Math.trunc(fahrenheit);
 
-var tempInFahrenheit = arrayOfNumbers.map(celsiusToFahrenheit)
+var temperatureInCelsius = [2, 4, 5, 7, 6, 9, 10]
+var tempInFahrenheit = temperatureInCelsius.map(celsiusToFahrenheit);
 
 console.log(tempInFahrenheit)
-     return arrayOfNumbers;
+     // return arrayOfNumbers;
 }
 
 assignment.celsiusToFahrenheit = celsiusToFahrenheit;
