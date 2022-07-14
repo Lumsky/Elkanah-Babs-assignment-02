@@ -59,7 +59,7 @@ function celsiusToFahrenheit(arrayOfNumbers) {
 var tempInFahrenheit = arrayOfNumbers.map(celsiusToFahrenheit)
 
 console.log(tempInFahrenheit)
-    // return arrayOfNumbers;
+     return arrayOfNumbers;
 }
 
 assignment.celsiusToFahrenheit = celsiusToFahrenheit;
