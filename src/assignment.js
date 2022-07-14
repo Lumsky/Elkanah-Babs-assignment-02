@@ -19,6 +19,7 @@ function sumOfNumbers(arrayOfNumbers) {
     sumOfNumbers += arrayOfNumbers[i];
     return sumOfNumbers;
 
+  console.log(sumOfNumbers(arrayOfNumbers))
     return arrayOfNumbers.length;
 }
 
